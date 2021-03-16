@@ -77,7 +77,9 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     marginTop: 10,
     opacity: 0.5,
-    textAlign: 'center'
+    textAlign: 'center',
+    paddingLeft: 25,
+    paddingRight: 25
   }, 
   // Username and Password Input text area on Login Page
   input: {
