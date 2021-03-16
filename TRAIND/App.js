@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import { 
   StyleSheet, 
   Text, 
-  View 
+  View,
+  ImageBackground
 } from 'react-native';
+
+import bgImage from './images/login_background.jpg';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <ImageBackground source={bgImage} style={styles.backgroundContainer}>
+
+    </ImageBackground>
   );
 }
 
@@ -20,4 +23,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  backgroundContainer: {
+    flex: 1,
+    width: null,
+    height: null,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
 });
