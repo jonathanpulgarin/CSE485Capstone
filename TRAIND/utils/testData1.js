@@ -1,0 +1,35 @@
+export const postList = {
+    upcomingBookings: [
+        { id: 1, instructorName: 'Tim', skillLevel: 'Intermediate', sessionType: 'Yoga', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/1.jpg', stars: 4.5, numberOfReviews: 98 },
+        { id: 2, instructorName: 'Kayla', skillLevel: 'Advanced', sessionType: 'CrossFit', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/2.jpg', stars: 4.1, numberOfReviews: 35 },
+        { id: 3, instructorName: 'Olivia', skillLevel: 'Beginner', sessionType: 'Yoga', sessionLocation: 'Syracuse', sessionPhoto: 'https://traind.netlify.app/9.jpg', stars: 3.9, numberOfReviews: 29 },
+        { id: 4, instructorName: 'Steve', skillLevel: 'Beginner', sessionType: 'Strength', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/26.jpg', stars: 4.8, numberOfReviews: 103 },
+        { id: 5, instructorName: 'Jon', skillLevel: 'Advanced', sessionType: 'Endurance', sessionLocation: 'Buffalo', sessionPhoto: 'https://traind.netlify.app/20.jpg', stars: 4.3, numberOfReviews: 67 },
+        { id: 6, instructorName: 'Chris', skillLevel: 'Intermediate', sessionType: 'Endurance', sessionLocation: 'Niagara Falls', sessionPhoto: 'https://traind.netlify.app/28.jpg', stars: 4.5, numberOfReviews: 54 },
+        { id: 7, instructorName: 'Lea', skillLevel: 'Beginner', sessionType: 'Cardio', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/19.jpg', stars: 3.8, numberOfReviews: 126 },
+        { id: 8, instructorName: 'Diana', skillLevel: 'Beginner', sessionType: 'CrossFit', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/31.jpg', stars: 4, numberOfReviews: 101 },
+        { id: 9, instructorName: 'Stephanie', skillLevel: 'Advanced', sessionType: 'Cardio', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/13.jpg', stars: 4.7, numberOfReviews: 86 },
+    ],
+    saved: [
+        { id: 5, instructorName: 'Jon', skillLevel: 'Advanced', sessionType: 'Endurance', sessionLocation: 'Buffalo', sessionPhoto: 'https://traind.netlify.app/20.jpg', stars: 4.3, numberOfReviews: 67 },
+        { id: 6, instructorName: 'Chris', skillLevel: 'Intermediate', sessionType: 'Endurance', sessionLocation: 'Niagara Falls', sessionPhoto: 'https://traind.netlify.app/23.jpg', stars: 4.5, numberOfReviews: 54 },
+        { id: 7, instructorName: 'Lea', skillLevel: 'Beginner', sessionType: 'Cardio', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/19.jpg', stars: 3.8, numberOfReviews: 126 },
+        { id: 8, instructorName: 'Diana', skillLevel: 'Beginner', sessionType: 'CrossFit', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/31.jpg', stars: 4, numberOfReviews: 101 },
+        { id: 9, instructorName: 'Stephanie', skillLevel: 'Advanced', sessionType: 'Cardio', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/13.jpg', stars: 4.7, numberOfReviews: 86 },
+        { id: 4, instructorName: 'Steve', skillLevel: 'Beginner', sessionType: 'Strength', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/26.jpg', stars: 4.8, numberOfReviews: 103 },
+        { id: 1, instructorName: 'Tim', skillLevel: 'Intermediate', sessionType: 'Yoga', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/1.jpg', stars: 4.5, numberOfReviews: 98 },
+        { id: 2, instructorName: 'Kayla', skillLevel: 'Advanced', sessionType: 'CrossFit', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/21.jpg', stars: 4.1, numberOfReviews: 35 },
+        { id: 3, instructorName: 'Olivia', skillLevel: 'Beginner', sessionType: 'Yoga', sessionLocation: 'Syracuse', sessionPhoto: 'https://traind.netlify.app/9.jpg', stars: 3.9, numberOfReviews: 29 },
+    ],
+    yoga: [
+        { id: 6, instructorName: 'Chris', skillLevel: 'Intermediate', sessionType: 'Yoga', sessionLocation: 'Niagara Falls', sessionPhoto: 'https://traind.netlify.app/7.jpg', stars: 4.5, numberOfReviews: 54 },
+        { id: 7, instructorName: 'Lea', skillLevel: 'Beginner', sessionType: 'Yoga', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/8.jpg', stars: 3.8, numberOfReviews: 126 },
+        { id: 8, instructorName: 'Diana', skillLevel: 'Beginner', sessionType: 'Yoga', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/9.jpg', stars: 4, numberOfReviews: 101 },
+        { id: 1, instructorName: 'Tim', skillLevel: 'Intermediate', sessionType: 'Yoga', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/2.jpg', stars: 4.5, numberOfReviews: 98 },
+        { id: 2, instructorName: 'Kayla', skillLevel: 'Advanced', sessionType: 'Yoga', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/3.jpg', stars: 4.1, numberOfReviews: 35 },
+        { id: 3, instructorName: 'Olivia', skillLevel: 'Beginner', sessionType: 'Yoga', sessionLocation: 'Syracuse', sessionPhoto: 'https://traind.netlify.app/4.jpg', stars: 3.9, numberOfReviews: 29 },
+        { id: 4, instructorName: 'Steve', skillLevel: 'Beginner', sessionType: 'Yoga', sessionLocation: 'New York', sessionPhoto: 'https://traind.netlify.app/5.jpg', stars: 4.8, numberOfReviews: 103 },
+        { id: 5, instructorName: 'Jon', skillLevel: 'Advanced', sessionType: 'Yoga', sessionLocation: 'Buffalo', sessionPhoto: 'https://traind.netlify.app/6.jpg', stars: 4.3, numberOfReviews: 67 },
+        { id: 9, instructorName: 'Stephanie', skillLevel: 'Advanced', sessionType: 'Yoga', sessionLocation: 'Toronto', sessionPhoto: 'https://traind.netlify.app/10.jpg', stars: 4.7, numberOfReviews: 86 },
+    ]
+}
