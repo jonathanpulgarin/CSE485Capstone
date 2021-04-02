@@ -8,7 +8,7 @@ import {
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import postImage from '../images/1.jpg'
-import { Ionicons } from '@expo/vector-icons'
+import { MaterialIcons } from '@expo/vector-icons'
 
 export default function FeedPost(props) {
     return (
@@ -16,7 +16,12 @@ export default function FeedPost(props) {
             <ImageBackground source={{uri: props.info.sessionPhoto}} style={styles.postImage} imageStyle={{
                 resizeMode: 'cover',
                 alignSelf: 'center'
-            }} />
+            }}>
+                <View style={styles.imageIconContainer}>
+                    <MaterialIcons style={{marginRight: 10}} name={'favorite-border'} size={30} color={'#FF6079'} />
+                    <MaterialIcons style={{marginRight: 10}} name={'chat-bubble'} size={30} color={'#FF6079'} />
+                </View>
+            </ImageBackground>
             <View style={styles.postTextContainer}>
                 <View style={styles.topTextContainer}>
                     <View>
@@ -29,7 +34,7 @@ export default function FeedPost(props) {
                     </View>
                     <View style={styles.starContainer}>
                         <Text style={styles.starContainerText}>{props.info.stars} ({props.info.numberOfReviews})</Text>
-                        <Ionicons name={'star'} size={30} color={'#FF6079'} />
+                        <MaterialIcons name={'star'} size={30} color={'#FF6079'} />
                     </View>
                 </View>
                 <View style={styles.bottomTextContainer}>
@@ -38,7 +43,7 @@ export default function FeedPost(props) {
                         <Text style={styles.sessionSkill}>{props.info.skillLevel}</Text>
                     </View>
                     <View style={styles.bookingButton}>
-                        <Ionicons name={'calendar'} size={30} color={'#FFFFFF'} />
+                        <MaterialIcons name={'event'} size={32} color={'#FFFFFF'} />
                     </View>
                 </View>
             </View>
@@ -137,5 +142,11 @@ const styles = StyleSheet.create({
         borderRadius: 100,
         justifyContent: 'center',
         alignItems: 'center'
+    },
+    imageIconContainer: {
+        flexDirection: 'row',
+        position: 'absolute',
+        right: 0,
+        bottom: 10
     }
 });

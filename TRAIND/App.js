@@ -8,15 +8,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import LoginPage from './Pages/LoginPage'
-import Home from './Pages/Home'
+import HomeScreen from './Pages/HomeScreen'
 import TabBar from './navigation/TabBar'
 
 export default function App() {
 	return (
 		<View style={styles.container}>
-			<Home></Home>
-			{/*<LoginPage></LoginPage>
-			<TabBar></TabBar>*/}
+			<HomeScreen></HomeScreen>
 			<TabBar></TabBar>
 		</View>
 	);
